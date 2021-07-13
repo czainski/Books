@@ -1,7 +1,0 @@
-﻿SELECT * FROM XXX ;
-SELECT X1.Id1, 
-    (SELECT count (Id2)
-     FROM XXX AS X2
-     WHERE X1.Id2 = X2.Id2) AS Ma
-FROM XXX AS X1;
-
